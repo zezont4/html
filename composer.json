@@ -17,7 +17,19 @@
             "email": "taylorotwell@gmail.com"
         }
     ],
-
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^12.0",
+        "illuminate/routing": "^12.0",
+        "illuminate/session": "^12.0",
+        "illuminate/support": "^12.0",
+        "illuminate/view": "^12.0"
+    },
+    "require-dev": {
+        "illuminate/database": "^12.0",
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^11.0"
+    },
     "autoload": {
         "psr-4": {
             "Collective\\Html\\": "src/"
